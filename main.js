@@ -31,5 +31,13 @@ _client.on("message", async (message) =>{
         }
     }
     
+    if (cmd == "help"){
+        const embed = new Discord.RichEmbed()
+        .setAuthor("Dev East Laos Help.")
+        .setDescription("_client is Client.\nmessage is Message Client. (usually message.guild)");
+        
+        message.channel.send(embed);
+    }
+    
     //End Lines.
 }
