@@ -40,4 +40,4 @@ _client.on("message", async (message) =>{
     }
     
     //End Lines.
-}
+});
